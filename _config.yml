@@ -1,6 +1,6 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "Really cool blog about ... something"
+title: "stick's hacking blog"
+author: "Connor McMillan"
+description: "Walkthroughs, CTF Writeups, PoCs, and More!"
 
 # Jekyll settings
 permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
@@ -14,17 +14,19 @@ post_footer: true            # show previous and next links at the end of each p
 date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
 
 # Theme settings
-dark_theme: false            # enables dark mode
+dark_theme: true            # enables dark mode
 dark_header: false           # uses dark header whether dark_theme is enabled or not
 
-#navigation:                 # (optional) site navigation in the header
-#  - index.html
-#  - archive.md
+navigation:                 # (optional) site navigation in the header
+  - index.html
+  - archive.md
+  - OSCP-Tips.md
+  - About-Me.md
 #  - README.md
 
 icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
-  envelope: "mailto:niklasbuschmann@users.noreply.github.com"
-  github: "https://github.com/niklasbuschmann/contrast"
+  envelope: "mailto:connor-mcmillan@live.com"
+  github: "https://github.com/stick-cm"
   rss: "/contrast-demo/feed.xml"
 
 comments:                    # embed disqus or isso comments
@@ -34,7 +36,7 @@ comments:                    # embed disqus or isso comments
 remote_theme: niklasbuschmann/contrast
 
 plugins: 
- - jekyll-remote-theme
- - jekyll-feed
- - jekyll-paginate
- - jekyll-default-layout
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-default-layout
